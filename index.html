@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NovaPadGo · 你的应用中心控制台</title>
+  <meta name="description" content="NovaPadGo 为 macOS 打造的极速启动器，集成闪电搜索、深度整理、自定义工作区与智能自动化，让你的应用管理随心掌控。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#hero" class="logo">
+        <img src="logo/novepad-logo.png" alt="NovaPadGo">
+        <span class="logo-text">NovaPadGo</span>
+      </a>
+      <button class="nav-toggle" aria-label="切换导航">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#features">核心亮点</a>
+        <a href="#workflow">高效工作流</a>
+        <a href="#customization">个性化体验</a>
+        <a href="#gallery">界面速览</a>
+        <a href="#video">产品演示</a>
+        <a href="https://apps.apple.com/cn/app/novapadgo/id6752112019" class="cta-link" target="_blank" rel="noopener">立即下载</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero" data-animate>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">应用太多 · 时间太少？</p>
+          <h1 class="hero-title">
+            <span class="hero-title-line">找不到 LaunchPad？别慌！</span>
+            <span class="hero-title-line accent">NovaPadGo 来救场</span>
+          </h1>
+          <p class="lead">完全定制你自己的启动台！流畅的操作体验、高度的自定义、闪电搜索、一键直达。NovaPadGo 专为高效管理应用而设计，让你快速找到、整理、启动、切换，每一次操作都恰到好处。</p>
+          <div class="hero-actions">
+            <a href="https://apps.apple.com/cn/app/novapadgo/id6752112019" class="btn primary" target="_blank" rel="noopener">前往 App Store 下载</a>
+            <a href="#video" class="btn ghost">观看 1 分钟演示</a>
+          </div>
+
+        </div>
+        <div class="hero-media">
+          <div class="hero-slider" data-slider>
+            <div class="slider-track" data-slider-track>
+              <div class="slide" data-slide>
+                <img src="images/np-1.png" alt="NovaPadGo 截图 1">
+              </div>
+              <div class="slide" data-slide>
+                <img src="images/np-2.png" alt="NovaPadGo 截图 2">
+              </div>
+              <div class="slide" data-slide>
+                <img src="images/np-3.png" alt="NovaPadGo 截图 3">
+              </div>
+              <div class="slide" data-slide>
+                <img src="images/np-4.png" alt="NovaPadGo 截图 4">
+              </div>
+              <div class="slide" data-slide>
+                <img src="images/np-5.png" alt="NovaPadGo 截图 5">
+              </div>
+              <div class="slide" data-slide>
+                <img src="images/np-6.png" alt="NovaPadGo 截图 6">
+              </div>
+            </div>
+            <button class="slider-control prev" type="button" data-slider-prev aria-label="上一张">
+              <span aria-hidden="true">&#8249;</span>
+              <span class="sr-only">上一张</span>
+            </button>
+            <button class="slider-control next" type="button" data-slider-next aria-label="下一张">
+              <span aria-hidden="true">&#8250;</span>
+              <span class="sr-only">下一张</span>
+            </button>
+            <div class="slider-dots" data-slider-dots></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section features" data-animate>
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow">Core Advantages</span>
+          <h2>为效率玩家定制的启动与整理中枢</h2>
+          <p>NovaPadGo 汇聚了 launcher、搜索与桌面整理的最佳实践，从第一秒就为高效工作流而生。</p>
+        </header>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>闪电级搜索</h3>
+            <p>智能索引系统目录与自定义路径，键入即得结果。支持别名、模糊匹配与常用行为推荐。</p>
+          </article>
+          <article class="feature-card">
+            <h3>全局操作台</h3>
+            <p>整合打开、删除、定位、复制路径等常用动作，让频繁操作不出一个窗口即可完成。</p>
+          </article>
+          <article class="feature-card">
+            <h3>多工作区布局</h3>
+            <p>自定义看板、应用墙、收藏夹与标签分组，根据场景快速切换，持久同步你的使用习惯。</p>
+          </article>
+          <article class="feature-card">
+            <h3>安全透明的权限</h3>
+            <p>偏好设置集中管理授权目录，提供逐项、可撤销的访问控制，安全与效率并重。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow" class="section workflow" data-animate>
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow">Flow</span>
+          <h2>从启动到整理，三步搞定</h2>
+          <p>无论是构建开发环境，还是梳理创意工具，只需三个轻松步骤。</p>
+        </header>
+        <div class="workflow-steps">
+          <div class="step">
+            <div class="step-index">01</div>
+            <h3>一键扫描</h3>
+            <p>首次启动自动扫描系统应用；自定义目录与外置磁盘也可随时手动添加。</p>
+          </div>
+          <div class="step">
+            <div class="step-index">02</div>
+            <h3>拖拽整理</h3>
+            <p>拖放应用、重命名、创建别名或把常用项目置顶，让工作区像你希望的那样清爽。</p>
+          </div>
+          <div class="step">
+            <div class="step-index">03</div>
+            <h3>一键直达</h3>
+            <p>通过搜索、快捷键或全局快捷面板发起操作；常用命令支持快捷键与自动化。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="customization" class="section customization" data-animate>
+      <div class="container">
+        <div class="customization-content">
+          <div class="copy">
+            <header class="section-head align-left">
+              <span class="eyebrow">Personalize</span>
+              <h2>你的 Launchpad，从此真正自定义</h2>
+            </header>
+            <ul class="customization-list">
+              <li><strong>壁纸与主题：</strong>自由上传背景，挑选暗色、亮色或跟随系统。</li>
+              <li><strong>布局预设：</strong>选择网格密度、卡片大小、行列数，打造舒适阅读节奏。</li>
+              <li><strong>别名管理：</strong>为常用命令创建记忆友好的别名，让搜索更贴合你的语言。</li>
+              <li><strong>权限面板：</strong>偏好设置内集中浏览、撤回、更新目录授权，随时掌控数据。</li>
+            </ul>
+            <a href="https://apps.apple.com/cn/app/novapadgo/id6752112019" class="btn inline" target="_blank" rel="noopener">探索更多能力</a>
+          </div>
+          <figure class="customization-media">
+            <img src="images/sysconfig.png" alt="NovaPadGo 偏好设置界面">
+            <figcaption>偏好设置中集中管理主题、权限与快捷操作。</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery" data-animate>
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow">Screenshots</span>
+          <h2>界面速览</h2>
+          <p>真实产品画面，展示 NovaPadGo 的各项能力。</p>
+        </header>
+        <div class="gallery-grid">
+          <figure>
+            <img src="images/np-1.png" alt="NovaPadGo 多视图应用墙">
+            <figcaption>井井有条的看板式网格布局。</figcaption>
+          </figure>
+          <figure>
+            <img src="images/np-2.png" alt="NovaPadGo 快速收藏与分组">
+            <figcaption>别名、快捷操作一目了然。</figcaption>
+          </figure>
+          <figure>
+            <img src="images/np-4.png" alt="NovaPadGo 快捷动作面板">
+            <figcaption>常用命令集中展示，效率翻倍。</figcaption>
+          </figure>
+          <figure>
+            <img src="images/np-3.png" alt="NovaPadGo 智能搜索界面">
+            <figcaption>键入即搜，匹配最常用操作。</figcaption>
+          </figure>
+          <figure>
+            <img src="images/np-6.png" alt="NovaPadGo 自定义桌面背景">
+            <figcaption>个性化背景与主题，让 Launchpad 更顺眼。</figcaption>
+          </figure>
+          <figure>
+            <img src="images/np-5.png" alt="NovaPadGo 权限管理面板">
+            <figcaption>定制你自己的背景，随心切换。</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="section video" data-animate>
+      <div class="container">
+        <div class="video-wrapper">
+          <div class="video-item">
+            <video src="videos/Introduction.mp4" controls poster="images/viceo-1.png"></video>
+            <div class="video-caption">
+              <h2>快速了解 NovaPadGo </h2>
+              <p>通过全局快捷键拉起 NovaPadGo，极速挑选应用、执行常用指令，复杂工作流一步到位。</p>
+            
+            </div>
+          </div>
+          <div class="video-item">
+            <video src="videos/PreferencesOverview.mp4" controls poster="images/video-2.png"></video>
+            <div class="video-caption">
+              <h2>进阶偏好设置与演示</h2>
+              <p>全方位演示 NovaPadGo 偏好设置：自定义主题、目录权限管理与快捷操作面板，一站式掌控。</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="section cta" data-animate>
+      <div class="container">
+        <div class="cta-card">
+          <h2>NovaPadGo 已上线 App Store</h2>
+          <p>全新版本现已发布，立即下载 NovaPadGo，打造属于你的高效应用中枢。</p>
+          <a href="https://apps.apple.com/cn/app/novapadgo/id6752112019" class="btn primary" target="_blank" rel="noopener">App Store 下载</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <span class="logo">NovaPadGo</span>
+        <p>打造属于 Mac 用户的专业高效启动器。</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula">使用条款</a>
+        <a href="https://boluobn.github.io/NovaPadGo/PrivacyPolicy/privacy.html">隐私政策</a>
+        <a href="#hero">回到顶部</a>
+      </div>
+      <div class="footer-contact">
+        <span>联系邮箱：</span>
+        <a href="mailto:boluobn@gmail.com">boluobn@gmail.com</a>
+      </div>
+      <p class="footer-copy">© 2025 NovaPadGo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

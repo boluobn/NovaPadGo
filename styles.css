@@ -424,11 +424,22 @@ p {
   border: 1px solid var(--border);
   box-shadow: var(--shadow-soft);
   transition: transform 0.2s ease, border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
 .feature-card:hover {
   transform: translateY(-4px);
   border-color: rgba(148, 163, 184, 0.35);
+}
+
+.feature-illustration {
+  width: 100%;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: var(--shadow-soft);
+  display: block;
 }
 
 .workflow {
